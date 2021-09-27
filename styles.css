@@ -1,0 +1,95 @@
+colors {
+    color: #eff0ef;
+    color: #2b3016;
+    color: #f89345;
+    color: #ac3501;
+    color: #121215;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, sans-serif;
+    background-color: #eff0ef;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+h1, h2, h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 1rem;
+    background-color: #f89345;
+    color: #121215;
+    border-radius: 15px;
+    width: 95%;
+}
+
+p {
+    padding: 25px;
+    color: #121215;
+}
+
+.menu, ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    background-color: #2b3016;
+    color: #f89345;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: #f89345;
+    color: #2b3016;
+    transition: 0.5s;
+}
+/*Recipe Card*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #2b3016;
+    border-radius: 15px;
+}
+
+.directions {
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #ac3501;
+}
+
+li {
+    margin: 25px;
+    padding: 10px;
+    color: #eff0ef;
+}
